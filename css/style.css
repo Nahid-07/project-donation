@@ -9,6 +9,7 @@ body {
 /* Header part area stryle========== */
 /* ================================= */
 .banner{
+    width: 100%;
     background-image: url(../images/donation0.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -89,7 +90,8 @@ body {
     color: #c7c1c9;
 }
 .amount-choice{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -101,7 +103,6 @@ body {
     font-size: 30px;
     font-weight: 700;
     color: #cacaca;
-    margin: 0 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -379,3 +380,7 @@ form{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
+
+
+
+

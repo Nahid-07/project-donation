@@ -1,0 +1,75 @@
+@media only screen and (max-width:576px) {
+    .banner{
+        width: 100%;
+        background-size: cover;
+    }
+    .donation-area{
+        width: 100%;
+    }
+    .donate-wrapper{
+        width: 100%;
+    }
+    .amount-choice{
+        width: 100%;
+    }
+    .intpu-field input{
+        width: 100%;
+    }
+    .amount-choice{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+    #donation-plan-aerea{
+        width: 100%;
+    }
+    .donatio-area-wrapper{
+        width: 100%;
+    }
+    .donation-plan-container{
+        flex-direction: column;
+    }
+    .subscribe{
+        width: 100%;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .get-update-area {
+        padding: 0;
+    }
+    .subscribe button{
+        position: static;
+    }
+    .subscribe input{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #volunteer-area{
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .volunteer{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .singup-form{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .singup-form input{
+        margin-top: 0;
+    }
+    .volunteer h1 {
+        font-size: 30px;
+    }
+    .headline h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .charitee-title{
+        font-size: 40px;
+        text-align: center;
+    }
+}
